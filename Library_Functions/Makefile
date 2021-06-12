@@ -1,6 +1,7 @@
 CC = gcc
-SRC = mylib.c
-DEPS = mylib.h
+SRC = *.c
 
 mylib : mylib.h
+
 	$(CC) -c $(SRC)
+	ar -rc mylib.a *.o
