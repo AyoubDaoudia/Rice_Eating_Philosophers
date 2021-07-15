@@ -2,7 +2,6 @@
 #include <pthread.h>
 #include <unistd.h>
 #include <time.h>
-#include<ncurses.h>
 
 
 #define N 7
